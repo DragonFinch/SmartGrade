@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_rectangle_white"
+        android:orientation="horizontal"
+        android:padding="80dp">
+
+        <com.school.nfcard.widget.CircleImageView
+            android:id="@+id/imageHead"
+            android:layout_width="288dp"
+            android:layout_height="300dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="80dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/icon_defalt_head"
+            app:type="circle" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="欢迎"
+                android:textColor="#333333"
+                android:textSize="35sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textColor="#3DA6FF"
+                android:textSize="40sp" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

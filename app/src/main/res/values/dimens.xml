@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+
+    <dimen name="title_height_48">45dp</dimen>
+    <dimen name="toolBarHeight">45dp</dimen>
+    <dimen name="toolbar_padding_top">0dp</dimen>
+    <dimen name="line_narrow">0.5dp</dimen>
+    <dimen name="line_wide">5dp</dimen>
+    <dimen name="content_padding">10dp</dimen>
+    <dimen name="pad0dp">0dp</dimen>
+    <dimen name="goods_element_padding">5dp</dimen>
+    <dimen name="grid_padding">30dp</dimen>
+    <dimen name="grid_padding_10">10dp</dimen>
+</resources>

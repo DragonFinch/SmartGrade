@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">智能班牌</string>
+
+
+    <string name="NetException">网络异常</string>
+    <string name="HTTPNoAddress">No address associated with hostname</string>
+    <string name="HTTP404">HTTP 404 Not Found</string>
+    <string name="HTTPServiceException">没有网络</string>
+    <string name="HTTPTimeout">failed to connect to</string>
+    <string name="HTTPFAILED">Failed to connect to</string>
+    <string name="HTTP500">HTTP 500</string>
+    <string name="timeout">请求超时</string>
+    <string name="JsonObjectError">Expected BEGIN_OBJECT but was BEGIN_ARRAY</string>
+    <string name="JsonArrayError">Expected BEGIN_ARRAY but was BEGIN_OBJECT</string>
+    <string name="JsonError">数据错误</string>
+    <string name="sign_error">sign is error</string>
+    <string name="reLogin">请重新登录</string>
+
+</resources>

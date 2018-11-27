@@ -30,6 +30,7 @@ class AppUpdatePresenter(view: AppUpdateContract.View) : BasePresenter<AppUpdate
         if(!NetUtils.isInternetConnection(context)){
             return
         }
+        //
         if (isViewBind) {
             ApiFactory.createLoginService()
                     .appVertion.compose(TransformUtils.mainThread())
